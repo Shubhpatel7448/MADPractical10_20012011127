@@ -20,6 +20,7 @@ class HttpRequest {
                 conn.setRequestProperty("Content-Type","application/json");
             }
 
+
             conn.requestMethod = "GET"
             response = convertStreamToString(BufferedInputStream(conn.inputStream))
         } catch (e: MalformedURLException) {

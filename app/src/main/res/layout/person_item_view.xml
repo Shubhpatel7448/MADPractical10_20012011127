@@ -41,6 +41,7 @@
                 app:layout_constraintEnd_toStartOf="@id/button_map"
                 android:orientation="vertical">
 
+
                 <TextView
                     android:id="@+id/textView_name"
                     android:layout_width="match_parent"

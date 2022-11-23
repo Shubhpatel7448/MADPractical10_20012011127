@@ -36,6 +36,7 @@ class PersonAdapter (private val context: Context, private val array:ArrayList<P
         }
     }
 
+
     override fun getItemCount(): Int {
         return array.size
     }

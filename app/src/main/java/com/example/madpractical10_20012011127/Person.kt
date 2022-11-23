@@ -25,6 +25,7 @@ class Person (jsonObject: JSONObject) :Serializable {
         Longitude = locationJson.getDouble("long")
     }
 
+
     override fun toString(): String {
         return "$Name\n$PhoneNo\n$EmailId\n$Address\nlat:$Latitude\nlog:$Longitude"
     }
