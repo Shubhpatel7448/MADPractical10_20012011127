@@ -12,6 +12,7 @@ class Person (jsonObject: JSONObject) :Serializable {
     var Latitude: Double
     var Longitude:Double
 
+
     init {
         id = jsonObject.getString("id")
         EmailId = jsonObject.getString("email")
