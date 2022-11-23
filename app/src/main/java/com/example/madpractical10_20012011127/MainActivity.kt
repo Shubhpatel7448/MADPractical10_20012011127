@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         binding.fab.setOnClickListener {
             CoroutineScope(Dispatchers.IO).launch {
                 try {
+
                     val data = HttpRequest().makeServiceCall(
                         "https://api.json-generator.com/templates/qjeKFdjkXCdK/data",
                         "dchj8v1b6qqdjzbqood1jgpachyfzlw58r540gru")
